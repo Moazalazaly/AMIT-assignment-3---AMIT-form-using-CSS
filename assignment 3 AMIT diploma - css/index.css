@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+
+body {
+    background-color: #a09cf4;
+    width: 100%;
+    height: 100vh;
+}
+
+.space {
+    margin: 6px auto;
+}
+
+header {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header hr {
+    width: 400px;
+}
+
+form {
+    background-color: #36365a;
+    width: 400px;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+form input {
+    color: black;
+}
+
+form div:not(.radio) {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+
+.full-width {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+select {
+    color: black;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+
+}
+
+select option {
+    color: black;
+}
+
